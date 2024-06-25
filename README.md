@@ -26,6 +26,8 @@ This web application allows users to manage their personal information, membersh
 
 4. **Deploy Your Application:**
    - Upload your web application files to the `/var/www/html` directory on your EC2 instance.
+   - Create a directory named uploads in the same path.
+   - Set 777 permission to the uploads directory.
 
 5. **Start Apache:**
    - Restart Apache to apply changes: `sudo service apache2 restart`
